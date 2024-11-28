@@ -2,6 +2,8 @@ pipeline {
     agent {
         label 'master'
     }
+      enviroment 
+    {SONAR_TOKEN='c69dc5d67ff84cf35f7122fa885a087e571d8ac6'}
     stages {
         stage('Build') {
             steps {
